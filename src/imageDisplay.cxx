@@ -4,11 +4,9 @@
 #include <fstream>
 
 /*
-To Compile:
-g++ -std=c++11 -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK  -DDLIB_PNG_SUPPORT   -O3 -DNDEBUG -Wl,-search_paths_first -Wl,-headerpad_max_install_names -I/Users/lee_vettleson/code/3rdparty/dlib/ -F/Library/Frameworks -I/usr/local/Cellar/opencv3/HEAD-976ee44/include -I/usr/local/Cellar/opencv3/HEAD-976ee44/include/opencv imageDisplay.cpp -o imageDisplay /Users/lee_vettleson/code/3rdparty/dlib/build/dlib/libdlib.a /usr/X11R6/lib/libSM.dylib /usr/X11R6/lib/libICE.dylib /usr/X11R6/lib/libX11.dylib /usr/X11R6/lib/libXext.dylib /usr/local/lib/libpng.dylib /usr/lib/libcblas.dylib /usr/lib/liblapack.dylib /usr/lib/libsqlite3.dylib 
 
 To Run: 
-./ImageDisplay ~/Documents/images/IMG_0001.JPG
+./play-with-dlib ~/Documents/images/IMG_0001.JPG
 */
 using namespace std;
 using namespace dlib;
