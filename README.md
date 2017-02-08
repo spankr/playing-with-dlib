@@ -5,4 +5,4 @@ Yay, learning machine learning and what better than [dlib]?
 
 
 
-[dlib]: https://dlib.net
+[dlib]: http://dlib.net/
